@@ -14,6 +14,11 @@
 		88F602D21F6A828A000F9FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F602D11F6A828A000F9FF4 /* Assets.xcassets */; };
 		88F602D51F6A828A000F9FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F602D31F6A828A000F9FF4 /* LaunchScreen.storyboard */; };
 		88F602DF1F6A82C9000F9FF4 /* SingleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F602DE1F6A82C9000F9FF4 /* SingleObject.m */; };
+		88F7FCD21F6AD3F20008AB04 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7FCD11F6AD3F20008AB04 /* Character.m */; };
+		88F7FCD51F6AD4450008AB04 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7FCD41F6AD4450008AB04 /* CharacterBuilder.m */; };
+		88F7FCD81F6AD6450008AB04 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7FCD71F6AD6450008AB04 /* StandardCharacterBuilder.m */; };
+		88F7FCDB1F6AD6680008AB04 /* SuperCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7FCDA1F6AD6680008AB04 /* SuperCharacterBuilder.m */; };
+		88F7FCDE1F6AD7E20008AB04 /* CharacterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7FCDD1F6AD7E20008AB04 /* CharacterFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,16 @@
 		88F602D61F6A828A000F9FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88F602DD1F6A82C9000F9FF4 /* SingleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleObject.h; sourceTree = "<group>"; };
 		88F602DE1F6A82C9000F9FF4 /* SingleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleObject.m; sourceTree = "<group>"; };
+		88F7FCD01F6AD3F20008AB04 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		88F7FCD11F6AD3F20008AB04 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		88F7FCD31F6AD4450008AB04 /* CharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterBuilder.h; sourceTree = "<group>"; };
+		88F7FCD41F6AD4450008AB04 /* CharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterBuilder.m; sourceTree = "<group>"; };
+		88F7FCD61F6AD6450008AB04 /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
+		88F7FCD71F6AD6450008AB04 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
+		88F7FCD91F6AD6680008AB04 /* SuperCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCharacterBuilder.h; sourceTree = "<group>"; };
+		88F7FCDA1F6AD6680008AB04 /* SuperCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperCharacterBuilder.m; sourceTree = "<group>"; };
+		88F7FCDC1F6AD7E20008AB04 /* CharacterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterFactory.h; sourceTree = "<group>"; };
+		88F7FCDD1F6AD7E20008AB04 /* CharacterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 		88F602C41F6A828A000F9FF4 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				88F7FCCF1F6AD3C70008AB04 /* Builder */,
 				88F602DC1F6A82A4000F9FF4 /* Singleton */,
 				88F602C81F6A828A000F9FF4 /* AppDelegate.h */,
 				88F602C91F6A828A000F9FF4 /* AppDelegate.m */,
@@ -90,6 +106,23 @@
 				88F602DE1F6A82C9000F9FF4 /* SingleObject.m */,
 			);
 			name = Singleton;
+			sourceTree = "<group>";
+		};
+		88F7FCCF1F6AD3C70008AB04 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				88F7FCD01F6AD3F20008AB04 /* Character.h */,
+				88F7FCD11F6AD3F20008AB04 /* Character.m */,
+				88F7FCD31F6AD4450008AB04 /* CharacterBuilder.h */,
+				88F7FCD41F6AD4450008AB04 /* CharacterBuilder.m */,
+				88F7FCD61F6AD6450008AB04 /* StandardCharacterBuilder.h */,
+				88F7FCD71F6AD6450008AB04 /* StandardCharacterBuilder.m */,
+				88F7FCD91F6AD6680008AB04 /* SuperCharacterBuilder.h */,
+				88F7FCDA1F6AD6680008AB04 /* SuperCharacterBuilder.m */,
+				88F7FCDC1F6AD7E20008AB04 /* CharacterFactory.h */,
+				88F7FCDD1F6AD7E20008AB04 /* CharacterFactory.m */,
+			);
+			name = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F602CD1F6A828A000F9FF4 /* ViewController.m in Sources */,
+				88F7FCD51F6AD4450008AB04 /* CharacterBuilder.m in Sources */,
+				88F7FCD21F6AD3F20008AB04 /* Character.m in Sources */,
 				88F602CA1F6A828A000F9FF4 /* AppDelegate.m in Sources */,
 				88F602DF1F6A82C9000F9FF4 /* SingleObject.m in Sources */,
+				88F7FCDB1F6AD6680008AB04 /* SuperCharacterBuilder.m in Sources */,
+				88F7FCDE1F6AD7E20008AB04 /* CharacterFactory.m in Sources */,
 				88F602C71F6A828A000F9FF4 /* main.m in Sources */,
+				88F7FCD81F6AD6450008AB04 /* StandardCharacterBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +363,7 @@
 				88F602DB1F6A828A000F9FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

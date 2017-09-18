@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88E9BBAE1F6FD0EB0043541A /* CommandController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BBAD1F6FD0EB0043541A /* CommandController.m */; };
+		88E9BBBA1F6FD32A0043541A /* BaseTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BBB91F6FD32A0043541A /* BaseTV.m */; };
+		88E9BBBD1F6FD3760043541A /* AppleTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BBBC1F6FD3760043541A /* AppleTV.m */; };
+		88E9BBC01F6FD3860043541A /* SonyTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BBBF1F6FD3860043541A /* SonyTV.m */; };
 		88F602C71F6A828A000F9FF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F602C61F6A828A000F9FF4 /* main.m */; };
 		88F602CA1F6A828A000F9FF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F602C91F6A828A000F9FF4 /* AppDelegate.m */; };
 		88F602CD1F6A828A000F9FF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F602CC1F6A828A000F9FF4 /* ViewController.m */; };
@@ -22,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88E9BBAC1F6FD0EB0043541A /* CommandController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandController.h; sourceTree = "<group>"; };
+		88E9BBAD1F6FD0EB0043541A /* CommandController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandController.m; sourceTree = "<group>"; };
+		88E9BBB81F6FD32A0043541A /* BaseTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTV.h; sourceTree = "<group>"; };
+		88E9BBB91F6FD32A0043541A /* BaseTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTV.m; sourceTree = "<group>"; };
+		88E9BBBB1F6FD3760043541A /* AppleTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleTV.h; sourceTree = "<group>"; };
+		88E9BBBC1F6FD3760043541A /* AppleTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleTV.m; sourceTree = "<group>"; };
+		88E9BBBE1F6FD3860043541A /* SonyTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonyTV.h; sourceTree = "<group>"; };
+		88E9BBBF1F6FD3860043541A /* SonyTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonyTV.m; sourceTree = "<group>"; };
 		88F602C21F6A828A000F9FF4 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F602C61F6A828A000F9FF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88F602C81F6A828A000F9FF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +69,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88E9BBAB1F6FD0C30043541A /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				88E9BBAC1F6FD0EB0043541A /* CommandController.h */,
+				88E9BBAD1F6FD0EB0043541A /* CommandController.m */,
+				88E9BBB81F6FD32A0043541A /* BaseTV.h */,
+				88E9BBB91F6FD32A0043541A /* BaseTV.m */,
+				88E9BBBB1F6FD3760043541A /* AppleTV.h */,
+				88E9BBBC1F6FD3760043541A /* AppleTV.m */,
+				88E9BBBE1F6FD3860043541A /* SonyTV.h */,
+				88E9BBBF1F6FD3860043541A /* SonyTV.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
 		88F602B91F6A828A000F9FF4 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +103,7 @@
 		88F602C41F6A828A000F9FF4 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				88E9BBAB1F6FD0C30043541A /* Bridge */,
 				88F7FCCF1F6AD3C70008AB04 /* Builder */,
 				88F602DC1F6A82A4000F9FF4 /* Singleton */,
 				88F602C81F6A828A000F9FF4 /* AppDelegate.h */,
@@ -196,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E9BBBD1F6FD3760043541A /* AppleTV.m in Sources */,
 				88F602CD1F6A828A000F9FF4 /* ViewController.m in Sources */,
 				88F7FCD51F6AD4450008AB04 /* CharacterBuilder.m in Sources */,
 				88F7FCD21F6AD3F20008AB04 /* Character.m in Sources */,
@@ -204,7 +233,10 @@
 				88F7FCDB1F6AD6680008AB04 /* SuperCharacterBuilder.m in Sources */,
 				88F7FCDE1F6AD7E20008AB04 /* CharacterFactory.m in Sources */,
 				88F602C71F6A828A000F9FF4 /* main.m in Sources */,
+				88E9BBC01F6FD3860043541A /* SonyTV.m in Sources */,
 				88F7FCD81F6AD6450008AB04 /* StandardCharacterBuilder.m in Sources */,
+				88E9BBAE1F6FD0EB0043541A /* CommandController.m in Sources */,
+				88E9BBBA1F6FD32A0043541A /* BaseTV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@
 #import "StandardCharacterBuilder.h"
 #import "SuperCharacterBuilder.h"
 #import "CharacterFactory.h"
+#import "CommandController.h"
 
 @interface ViewController ()
 

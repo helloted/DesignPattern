@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DesignPattern/ViewController.m"
-            timestampString = "527096486.529772"
+            timestampString = "527582935.270944"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "-builder"
             landmarkType = "7">
          </BreakpointContent>

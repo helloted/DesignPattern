@@ -12,6 +12,8 @@
 #import "SuperCharacterBuilder.h"
 #import "CharacterFactory.h"
 #import "CommandController.h"
+#import "ComponentUpgrade.h"
+#import "Car.h"
 
 @interface ViewController ()
 
@@ -21,8 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self builder];
+    [self vistor];
+//    [self builder];
 }
 
 
@@ -45,6 +47,12 @@
     Character *superEnemy = [factory createEnemyWithBuilder:superBuilder];
     
     
+}
+
+- (void)vistor{
+    Car *car = [[Car alloc]init];
+    ComponentUpgrade *upgrade = [[ComponentUpgrade alloc]init];
+    [car acceptVistor:upgrade];
 }
 
 - (void)didReceiveMemoryWarning {

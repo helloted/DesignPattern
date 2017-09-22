@@ -11,6 +11,10 @@
 		8840DD751F72423100F7B500 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8840DD741F72423100F7B500 /* Engine.m */; };
 		8840DD781F72424000F7B500 /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8840DD771F72424000F7B500 /* Wheel.m */; };
 		8840DD7C1F72463600F7B500 /* ComponentUpgrade.m in Sources */ = {isa = PBXBuildFile; fileRef = 8840DD7B1F72463600F7B500 /* ComponentUpgrade.m */; };
+		8840DDBD1F74B69E00F7B500 /* AppStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8840DDBC1F74B69E00F7B500 /* AppStrategy.m */; };
+		8840DDC01F74B6EC00F7B500 /* QQStrtegy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8840DDBF1F74B6EC00F7B500 /* QQStrtegy.m */; };
+		8840DDC31F74B6FC00F7B500 /* XcodeStrtegy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8840DDC21F74B6FC00F7B500 /* XcodeStrtegy.m */; };
+		8840DDC61F74B71500F7B500 /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8840DDC51F74B71500F7B500 /* AppContext.m */; };
 		88E9BBAE1F6FD0EB0043541A /* CommandController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BBAD1F6FD0EB0043541A /* CommandController.m */; };
 		88E9BBBA1F6FD32A0043541A /* BaseTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BBB91F6FD32A0043541A /* BaseTV.m */; };
 		88E9BBBD1F6FD3760043541A /* AppleTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9BBBC1F6FD3760043541A /* AppleTV.m */; };
@@ -40,6 +44,14 @@
 		8840DD791F72428000F7B500 /* ComponentVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentVisitor.h; sourceTree = "<group>"; };
 		8840DD7A1F72463600F7B500 /* ComponentUpgrade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentUpgrade.h; sourceTree = "<group>"; };
 		8840DD7B1F72463600F7B500 /* ComponentUpgrade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentUpgrade.m; sourceTree = "<group>"; };
+		8840DDBB1F74B69E00F7B500 /* AppStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppStrategy.h; sourceTree = "<group>"; };
+		8840DDBC1F74B69E00F7B500 /* AppStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStrategy.m; sourceTree = "<group>"; };
+		8840DDBE1F74B6EC00F7B500 /* QQStrtegy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQStrtegy.h; sourceTree = "<group>"; };
+		8840DDBF1F74B6EC00F7B500 /* QQStrtegy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQStrtegy.m; sourceTree = "<group>"; };
+		8840DDC11F74B6FC00F7B500 /* XcodeStrtegy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeStrtegy.h; sourceTree = "<group>"; };
+		8840DDC21F74B6FC00F7B500 /* XcodeStrtegy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeStrtegy.m; sourceTree = "<group>"; };
+		8840DDC41F74B71500F7B500 /* AppContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
+		8840DDC51F74B71500F7B500 /* AppContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
 		88E9BBAC1F6FD0EB0043541A /* CommandController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandController.h; sourceTree = "<group>"; };
 		88E9BBAD1F6FD0EB0043541A /* CommandController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandController.m; sourceTree = "<group>"; };
 		88E9BBB81F6FD32A0043541A /* BaseTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTV.h; sourceTree = "<group>"; };
@@ -101,6 +113,21 @@
 			path = Vistor;
 			sourceTree = "<group>";
 		};
+		8840DDBA1F74B68200F7B500 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				8840DDBB1F74B69E00F7B500 /* AppStrategy.h */,
+				8840DDBC1F74B69E00F7B500 /* AppStrategy.m */,
+				8840DDBE1F74B6EC00F7B500 /* QQStrtegy.h */,
+				8840DDBF1F74B6EC00F7B500 /* QQStrtegy.m */,
+				8840DDC11F74B6FC00F7B500 /* XcodeStrtegy.h */,
+				8840DDC21F74B6FC00F7B500 /* XcodeStrtegy.m */,
+				8840DDC41F74B71500F7B500 /* AppContext.h */,
+				8840DDC51F74B71500F7B500 /* AppContext.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
 		88E9BBAB1F6FD0C30043541A /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +171,7 @@
 		88F602C41F6A828A000F9FF4 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				8840DDBA1F74B68200F7B500 /* Strategy */,
 				8840DD6F1F7241F800F7B500 /* Vistor */,
 				88E9BBC11F6FDE300043541A /* Mediator */,
 				88E9BBAB1F6FD0C30043541A /* Bridge */,
@@ -272,17 +300,21 @@
 				88F602CD1F6A828A000F9FF4 /* ViewController.m in Sources */,
 				88F7FCD51F6AD4450008AB04 /* CharacterBuilder.m in Sources */,
 				88F7FCD21F6AD3F20008AB04 /* Character.m in Sources */,
+				8840DDBD1F74B69E00F7B500 /* AppStrategy.m in Sources */,
 				8840DD781F72424000F7B500 /* Wheel.m in Sources */,
 				88F602CA1F6A828A000F9FF4 /* AppDelegate.m in Sources */,
 				88F602DF1F6A82C9000F9FF4 /* SingleObject.m in Sources */,
 				8840DD7C1F72463600F7B500 /* ComponentUpgrade.m in Sources */,
+				8840DDC01F74B6EC00F7B500 /* QQStrtegy.m in Sources */,
 				88F7FCDB1F6AD6680008AB04 /* SuperCharacterBuilder.m in Sources */,
 				88F7FCDE1F6AD7E20008AB04 /* CharacterFactory.m in Sources */,
+				8840DDC31F74B6FC00F7B500 /* XcodeStrtegy.m in Sources */,
 				8840DD751F72423100F7B500 /* Engine.m in Sources */,
 				88F602C71F6A828A000F9FF4 /* main.m in Sources */,
 				88E9BBC51F6FDEDB0043541A /* VCRouter.m in Sources */,
 				88E9BBC01F6FD3860043541A /* SonyTV.m in Sources */,
 				88F7FCD81F6AD6450008AB04 /* StandardCharacterBuilder.m in Sources */,
+				8840DDC61F74B71500F7B500 /* AppContext.m in Sources */,
 				88E9BBAE1F6FD0EB0043541A /* CommandController.m in Sources */,
 				88E9BBBA1F6FD32A0043541A /* BaseTV.m in Sources */,
 			);

@@ -4,7 +4,7 @@
 //
 //  Created by iMac on 2017/9/20.
 //  Copyright © 2017年 iMac. All rights reserved.
-//
+//  访问者模式
 
 #import <Foundation/Foundation.h>
 #import "ComponentVisitor.h"

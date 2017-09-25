@@ -1,13 +1,4 @@
----
-layout:     post
-title:      "iOS设计模式"
-subtitle:   "iOS开发中常用的一些设计模式"
-date:       2017-09-08 12:00:00
-author:     "Ted"
-header-img: "img/default.jpg"
----
-
-部分代码位置[Github-设计模式](https://github.com/helloted/designpattern)
+[博客地址](http://www.helloted.com/2017/09/08/designPatten/)
 
 > 创建型
 
